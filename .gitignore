@@ -1,0 +1,18 @@
+# Keep the WebGL build output only.
+*
+!.gitignore
+!.nojekyll
+!README.md
+!Build/
+!TemplateData/
+!index.html
+!*.js
+!*.json
+!*.css
+!*.png
+!*.jpg
+!*.jpeg
+!*.svg
+!*.ico
+!StreamingAssets/
+
