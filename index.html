@@ -57,11 +57,12 @@
       }
 
       var buildUrl = "Build";
+      var externalBuildUrl = "https://raw.githubusercontent.com/Alano774/eco-battle-game-web/main/Build";
       var loaderUrl = buildUrl + "/unity_env_game_web.loader.js";
       var config = {
-        dataUrl: buildUrl + "/unity_env_game_web.data",
+        dataUrl: externalBuildUrl + "/unity_env_game_web.data",
         frameworkUrl: buildUrl + "/unity_env_game_web.framework.js",
-        codeUrl: buildUrl + "/unity_env_game_web.wasm",
+        codeUrl: externalBuildUrl + "/unity_env_game_web.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "环保",
