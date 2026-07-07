@@ -6,14 +6,15 @@
 
 网页试玩地址：
 
-`https://Alano774.github.io/unity_env_game_web/`
+`https://alano774.github.io/eco-battle-game-web/`
 
 打开方式很简单：
 
 1. 打开浏览器
 2. 访问上面的链接
 3. 等待页面加载完成
-4. 点击页面中的游戏区域开始试玩
+4. 点击页面中的游戏画面区域，使网页获取键盘和鼠标焦点
+5. 开始试玩
 
 ## 推荐打开方式
 
@@ -38,11 +39,25 @@
 如果你打开网页后没有正常进入游戏，可以按下面顺序排查：
 
 1. 确认访问的是完整地址  
-   `https://Alano774.github.io/unity_env_game_web/`
+   `https://alano774.github.io/eco-battle-game-web/`
 2. 等待 10 到 30 秒，让 WebGL 资源加载完成
 3. 使用无痕窗口重新打开
 4. 按 `Ctrl + F5` 强制刷新
 5. 换用 `Chrome` 或 `Edge`
+
+## 当前版本内容
+
+当前网页试玩版本的正式流程为：
+
+- `Start`
+- `Game1`
+- `Game2`
+- `胜利结束页`
+
+说明：
+
+- 原先 `Game3` 中的“垃圾怪关卡”已退出正式主流程
+- 现在完成 `Game2` 的垃圾清理任务后，会直接进入通关结束页
 
 ## 这个仓库和源码仓库的区别
 
